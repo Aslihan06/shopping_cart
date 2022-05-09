@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(217, 215, 215);
+    font-size: 1.3rem;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 60px;
+    padding: 2rem 0;
+    margin: auto;
+    text-align: center;
+    height: 8rem;
+    background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgb(115, 230, 44) 10px,
+    rgb(117, 115, 115) 11px
+  ),
+  linear-gradient(
+    to bottom,
+    rgb(22, 230, 11),
+    rgb(27, 197, 80)
+  )
+}
+
+}
+header{
+    color: white;
+    border-radius: 6px;
+}
+.tab{
+    position: relative;
+    height: 50px;
+    
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;height: 70%;
+}
+table{
+    width: 800px;
+}
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse ;
+
+}
+th{
+    background-color: rgb(59, 57, 57);
+    color: white;
+    letter-spacing: 2px;
+}
+th, td{
+    padding: 9px;
+    
+}
+th:first-child{
+    width: 250px;
+    text-align: left;
+}
+th:nth-child(2){
+    width: 200px;
+    text-align: left;
+}
+
+th:nth-child(3), td:nth-child(3){
+    width: 50px;
+    text-align: center;
+
+}
+th:nth-child(4){
+    width: 200px;
+    text-align: right;
+}
+td:nth-child(n+4){
+    width: 250px;
+    text-align: right;
+}
+td:last-child, th:last-child{
+    width: 180px;
+    letter-spacing: 8px;
+}
+td:last-child{
+    padding-right: 15px;
+}
+tr:nth-child(odd){
+    background-color: rgb(180, 178, 178);
+}
+.colspan td{
+    background-color: rgb(95, 93, 93);
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.7px;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.buton a{
+    background-color:rgb(231, 112, 69);
+    padding: 10px;
+    display: inline-block;
+    height: 45px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 3px solid rgb(254, 82, 19);
+}
+.buton a:hover{
+    background-color:salmon;
+
+}
+#shop{
+    color: black;
+}
+
+
+
